@@ -8,7 +8,7 @@ int main()
 
     if (strlen(texts) > 20)
     {
-        printf("%.*s...\n", 20, texts);
+        printf("%.20s...\n", texts);
     }
     return 0;
 }

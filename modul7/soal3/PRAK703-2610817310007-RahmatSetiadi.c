@@ -20,9 +20,7 @@ int main()
             consonant++;
         }
     }
-
     printf("Jumlah Vokal : %d\n", vowels);
     printf("Jumlah Konsonan : %d\n", consonant);
-
     return 0;
 }
