@@ -1,6 +1,6 @@
-a = input().split()
-rows = int(a[0])
-cols = int(a[1])
+a, b = input().split()
+rows = int(a)
+cols = int(b)
 num = list(map(int, input().split()))
 
 for i in range(rows):
